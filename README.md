@@ -10,6 +10,11 @@ This project shows a demo of a sample usage portal for instance usage by various
 * Dashboard Page - Interactive Dashboard with dynamic data based on filters.
 * Usage Page - List view of detailed instance usage data across teams with global search, sorting, aggregation and filtering support along with pagination.
 
+## Demo
+
+https://usage-portal-nextjs.vercel.app/
+
+
 ## Getting Started
 
 First, run the development server:
