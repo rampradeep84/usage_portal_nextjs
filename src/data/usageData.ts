@@ -17,7 +17,7 @@ export const usageData: Usage[] = [
     usageHours: 245.5,
     costPerHour: 32.77,
     totalCost: 8045.04,
-    billingPeriod: "Dec 2023",
+    billingPeriod: "Dec 2024",
     status: "Active"
   },
   {
@@ -27,7 +27,7 @@ export const usageData: Usage[] = [
     usageHours: 180.2,
     costPerHour: 24.48,
     totalCost: 4411.30,
-    billingPeriod: "Dec 2023",
+    billingPeriod: "Dec 2024",
     status: "Active"
   },
   {
@@ -37,7 +37,7 @@ export const usageData: Usage[] = [
     usageHours: 320.8,
     costPerHour: 15.12,
     totalCost: 4850.50,
-    billingPeriod: "Nov 2023",
+    billingPeriod: "Nov 2024",
     status: "Completed"
   },
   {
@@ -47,67 +47,67 @@ export const usageData: Usage[] = [
     usageHours: 156.4,
     costPerHour: 12.24,
     totalCost: 1914.34,
-    billingPeriod: "Nov 2023",
+    billingPeriod: "Nov 2024",
     status: "Active"
   },
   {
     id: 5,
-    team: "Recommendation",
-    instanceType: "c6i.32xlarge",
-    usageHours: 278.6,
-    costPerHour: 5.44,
-    totalCost: 1515.58,
-    billingPeriod: "Oct 2023",
+    team: "ML Research",
+    instanceType: "p4d.24xlarge",
+    usageHours: 210.6,
+    costPerHour: 32.77,
+    totalCost: 6901.36,
+    billingPeriod: "Nov 2024",
     status: "Completed"
   },
   {
     id: 6,
-    team: "MLOps",
-    instanceType: "p4d.24xlarge",
-    usageHours: 412.3,
-    costPerHour: 32.77,
-    totalCost: 13511.07,
-    billingPeriod: "Dec 2023",
-    status: "Active"
-  },
-  {
-    id: 7,
-    team: "AI Infrastructure",
-    instanceType: "p3.16xlarge",
-    usageHours: 267.8,
-    costPerHour: 24.48,
-    totalCost: 6555.74,
-    billingPeriod: "Dec 2023",
+    team: "Data Science",
+    instanceType: "g5.48xlarge",
+    usageHours: 145.8,
+    costPerHour: 16.08,
+    totalCost: 2344.46,
+    billingPeriod: "Nov 2024",
     status: "Suspended"
   },
   {
+    id: 7,
+    team: "Computer Vision",
+    instanceType: "p3.8xlarge",
+    usageHours: 278.4,
+    costPerHour: 12.24,
+    totalCost: 3407.62,
+    billingPeriod: "Oct 2024",
+    status: "Completed"
+  },
+  {
     id: 8,
-    team: "Deep Learning",
-    instanceType: "g5.12xlarge",
-    usageHours: 189.5,
-    costPerHour: 15.12,
-    totalCost: 2865.24,
-    billingPeriod: "Nov 2023",
+    team: "NLP Team",
+    instanceType: "g4dn.metal",
+    usageHours: 190.2,
+    costPerHour: 7.824,
+    totalCost: 1487.72,
+    billingPeriod: "Oct 2024",
     status: "Completed"
   },
   {
     id: 9,
-    team: "Model Training",
-    instanceType: "g4dn.12xlarge",
-    usageHours: 345.2,
-    costPerHour: 12.24,
-    totalCost: 4225.25,
-    billingPeriod: "Nov 2023",
-    status: "Active"
+    team: "ML Research",
+    instanceType: "g5.24xlarge",
+    usageHours: 168.9,
+    costPerHour: 8.04,
+    totalCost: 1357.96,
+    billingPeriod: "Oct 2024",
+    status: "Completed"
   },
   {
     id: 10,
-    team: "Analytics",
-    instanceType: "c6i.32xlarge",
-    usageHours: 156.7,
-    costPerHour: 5.44,
-    totalCost: 852.45,
-    billingPeriod: "Oct 2023",
+    team: "Data Science",
+    instanceType: "p3.2xlarge",
+    usageHours: 225.3,
+    costPerHour: 3.06,
+    totalCost: 689.42,
+    billingPeriod: "Oct 2024",
     status: "Completed"
   },
   {
@@ -117,7 +117,7 @@ export const usageData: Usage[] = [
     usageHours: 198.4,
     costPerHour: 15.12,
     totalCost: 2999.81,
-    billingPeriod: "Dec 2023",
+    billingPeriod: "Dec 2024",
     status: "Active"
   },
   {
@@ -127,7 +127,7 @@ export const usageData: Usage[] = [
     usageHours: 287.6,
     costPerHour: 24.48,
     totalCost: 7040.45,
-    billingPeriod: "Nov 2023",
+    billingPeriod: "Nov 2024",
     status: "Completed"
   },
   {
@@ -137,7 +137,7 @@ export const usageData: Usage[] = [
     usageHours: 167.3,
     costPerHour: 12.24,
     totalCost: 2047.75,
-    billingPeriod: "Dec 2023",
+    billingPeriod: "Dec 2024",
     status: "Active"
   },
   {
@@ -147,7 +147,7 @@ export const usageData: Usage[] = [
     usageHours: 234.5,
     costPerHour: 5.44,
     totalCost: 1275.68,
-    billingPeriod: "Nov 2023",
+    billingPeriod: "Nov 2024",
     status: "Completed"
   },
   {
@@ -157,7 +157,7 @@ export const usageData: Usage[] = [
     usageHours: 312.8,
     costPerHour: 32.77,
     totalCost: 10250.46,
-    billingPeriod: "Dec 2023",
+    billingPeriod: "Dec 2024",
     status: "Active"
   },
   {
@@ -167,7 +167,7 @@ export const usageData: Usage[] = [
     usageHours: 178.9,
     costPerHour: 15.12,
     totalCost: 2705.97,
-    billingPeriod: "Oct 2023",
+    billingPeriod: "Nov 2024",
     status: "Completed"
   },
   {
@@ -177,7 +177,7 @@ export const usageData: Usage[] = [
     usageHours: 289.4,
     costPerHour: 24.48,
     totalCost: 7084.51,
-    billingPeriod: "Dec 2023",
+    billingPeriod: "Dec 2024",
     status: "Active"
   },
   {
@@ -187,7 +187,7 @@ export const usageData: Usage[] = [
     usageHours: 145.6,
     costPerHour: 12.24,
     totalCost: 1782.14,
-    billingPeriod: "Oct 2023",
+    billingPeriod: "Nov 2024",
     status: "Completed"
   },
   {
@@ -197,7 +197,7 @@ export const usageData: Usage[] = [
     usageHours: 267.9,
     costPerHour: 15.12,
     totalCost: 4050.65,
-    billingPeriod: "Nov 2023",
+    billingPeriod: "Nov 2024",
     status: "Completed"
   },
   {
@@ -207,7 +207,7 @@ export const usageData: Usage[] = [
     usageHours: 189.2,
     costPerHour: 5.44,
     totalCost: 1029.25,
-    billingPeriod: "Oct 2023",
+    billingPeriod: "Oct 2024",
     status: "Completed"
   },
   {
@@ -217,7 +217,7 @@ export const usageData: Usage[] = [
     usageHours: 412.7,
     costPerHour: 12.24,
     totalCost: 5051.45,
-    billingPeriod: "Dec 2023",
+    billingPeriod: "Dec 2024",
     status: "Active"
   },
   {
@@ -227,7 +227,7 @@ export const usageData: Usage[] = [
     usageHours: 156.8,
     costPerHour: 15.12,
     totalCost: 2370.82,
-    billingPeriod: "Nov 2023",
+    billingPeriod: "Nov 2024",
     status: "Completed"
   },
   {
@@ -237,7 +237,7 @@ export const usageData: Usage[] = [
     usageHours: 345.6,
     costPerHour: 24.48,
     totalCost: 8460.29,
-    billingPeriod: "Dec 2023",
+    billingPeriod: "Dec 2024",
     status: "Active"
   },
   {
@@ -247,7 +247,7 @@ export const usageData: Usage[] = [
     usageHours: 198.3,
     costPerHour: 5.44,
     totalCost: 1078.75,
-    billingPeriod: "Oct 2023",
+    billingPeriod: "Nov 2024",
     status: "Completed"
   },
   {
@@ -257,7 +257,7 @@ export const usageData: Usage[] = [
     usageHours: 412.3,
     costPerHour: 32.77,
     totalCost: 13511.07,
-    billingPeriod: "Nov 2023",
+    billingPeriod: "Dec 2024",
     status: "Completed"
   }
 ]
