@@ -69,7 +69,7 @@ export default function DashboardPage() {
       }
       return acc
     }, {} as Record<string, { period: string; hours: number; cost: number }>)
-  ).map(([_, data]) => data)
+  ).map(([, data]) => data)
   .sort((a, b) => new Date(a.period).getTime() - new Date(b.period).getTime())
 
   // Prepare data for team cost distribution
