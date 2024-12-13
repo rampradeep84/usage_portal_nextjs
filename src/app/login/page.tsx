@@ -17,7 +17,7 @@ export default function LoginPage() {
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault()
     if (username === "demo" && password === "login") {
-      // Store user details in localStorage
+      // Store user details in localStorage and cookie
       const userDetails = {
         name: "Demo User",
         email: "demo@usageportal.com",
@@ -25,7 +25,8 @@ export default function LoginPage() {
         username: username,
       }
       localStorage.setItem("user", JSON.stringify(userDetails))
-      setUser(userDetails) // Update user context immediately
+      document.cookie = `user=${JSON.stringify(userDetails)}; path=/`
+      setUser(userDetails)
       router.push("/dashboard")
     } else {
       setError("Invalid username or password")

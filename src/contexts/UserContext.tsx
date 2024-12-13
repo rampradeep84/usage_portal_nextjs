@@ -1,6 +1,7 @@
 "use client"
 
 import React, { createContext, useContext, useEffect, useState } from "react"
+import { useRouter } from "next/navigation"
 
 type User = {
   name: string;
@@ -19,6 +20,7 @@ const UserContext = createContext<UserContextType | undefined>(undefined)
 
 export function UserProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User>(null)
+  const router = useRouter()
 
   useEffect(() => {
     // Check localStorage for user data on component mount
@@ -38,7 +40,6 @@ export function UserProvider({ children }: { children: React.ReactNode }) {
       }
     }
 
-    // Listen for storage changes across tabs/windows
     window.addEventListener("storage", handleStorageChange)
 
     return () => {
@@ -48,8 +49,9 @@ export function UserProvider({ children }: { children: React.ReactNode }) {
 
   const logout = () => {
     localStorage.removeItem("user")
+    document.cookie = "user=; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;"
     setUser(null)
-    window.location.href = "/login"
+    router.push("/login")
   }
 
   return (
