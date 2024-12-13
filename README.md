@@ -1,5 +1,14 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-For UI we are using shadcn/ui with tailwind for styling
+
+For UI we are using shadcn/ui with tailwind for styling.
+
+## Functionality
+
+This project shows a demo of a sample usage portal for instance usage by various teams in a company.
+
+* Login Page - Maintains Login session and forces user to login when session is invalid/expires.
+* Dashboard Page - Interactive Dashboard with dynamic data based on filters.
+* Usage Page - List view of detailed instance usage data across teams with global search, sorting, aggregation and filtering support along with pagination.
 
 ## Getting Started
 
