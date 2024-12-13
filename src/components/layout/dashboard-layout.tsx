@@ -2,12 +2,10 @@
 
 import { usePathname } from "next/navigation"
 import AuthCheck from "@/components/auth/AuthCheck"
-import { useUser } from "@/contexts/UserContext"
 import { SideNav } from '../nav/side-nav'
 
 export function DashboardLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname()
-  const { user } = useUser()
 
   if (pathname === "/login") {
     return children
